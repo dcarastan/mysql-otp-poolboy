@@ -19,5 +19,6 @@
     {description, "MySQL/OTP + Poolboy"},
     {vsn, "0.1.1"},
     {modules, []},
-    {mod, {mysql_poolboy_app, []}}
+    {mod, {mysql_poolboy_app, []}},
+    {applications, [mysql, poolboy]},
 ]}.
